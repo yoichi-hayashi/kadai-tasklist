@@ -127,7 +127,7 @@ class TasksController extends Controller
             $task->delete();
         }
 
-        // 前のURLへリダイレクトさせる
-        return back();
+        // トップページへリダイレクトさせる
+        return redirect('/');
     }
 }
